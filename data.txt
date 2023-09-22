@@ -1,0 +1,49 @@
+# IDs
+MY_ID = 40130006
+PARTNER_ID = 40156530
+
+# my data
+p = 3329
+q = 3593
+N = 11961097
+phi_N = 11954176
+e = 5275889
+d = 9615377
+
+# my partner data
+PARTNER_N = 93772001
+PARTNER_e = 82133047
+
+# encryption
+MY_MESSAGE = "valar morghulis"
+MY_MESSAGE_chuncks = ["val", "ar ", "mor", "ghu", "lis"]
+MY_CIPHERTEXT = [68387278, 72579924, 24503609, 18078007, 81393331]
+
+# decryption
+PARTNER_CIPHERTEXT = [3640389, 5851418, 1026512, 3376978, 10316826, 3922440]
+PARTNER_MESSAGE_chuncks_AFTER_DECRYPT = ["win", "ter", " is", " co", "min", "g"]
+PARTNER_MESSAGE_AFTER_DECRYPT = "winter is coming"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Mehak"
+MY_MESSAGE_TO_BE_SIGNED_chuncks = ["Meh", "ak"]
+MY_SIGNATURE = [8349974, 2181394]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "simran nakhanj"
+PARTNER_SIGNATURE = [17051708, 51417491, 68069610, 25900023, 8293988]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here
+'''
+I have done the Encryption and Decryption part in a different file "EncryptDecrypt.java"
+and the values for p,q,N,e,Phi(N) in "Nande.java" because it was getting messy.
+
+I have referred geeksforgeeks, stackoverflow, tutorialspoint for help.
+
+Programming language used is JAVA.
